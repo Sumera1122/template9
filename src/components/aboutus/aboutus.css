@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color:white;
+  }
+  
+  .aboutus-container{
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px; 
+  }
+
+  .sub-container{
+    Width:562px;
+    Height:562px;
+  }
+
+  .heading{
+    Width:91px;
+    Height:40px;
+    color: #FF9F0D;
+    font-size: 20px;
+    margin-bottom: -20px;
+    
+  }
+  .heading-2{
+    width: 446px;
+    height: 110px;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 56px;
+  }
+  .heading-2 span{
+    color: #FF9F0D;
+    font-size: 24px;
+    font-weight: 700px;
+  }
+  .heading-2 h2{
+   margin-top: -30px;
+
+  }
+  .paragraph{
+    font-size: 12px;
+    line-height: 18px;
+  
+  }
+  .check-container{
+    font-size: 14px;
+    width: 446px;
+    height: 110px;
+    margin-top: 40px;
+    
+  }
+  .check-container p{
+    display: flex;
+}
+.button-div{
+  width:120px;
+  height: 40px;
+  background-color: #FF9F0D;
+  padding: 14px;
+  padding-left: 18px;
+  font-weight: 400px;
+  border-radius: 30px;
+  font-size: 12px;
+  
+}
+.images-container{
+  Width:50%;
+  Height:562px;
+
+
+}
+
+.images-container .img1{
+  width: 70%;
+  height: 290px;
+  display: block;
+  border-radius: 6px;
+  margin: 6px;
+
+}
+.images-container .img2{
+  width: 35%;
+  height: 120px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 6px;
+
+}
+.images-container .img3{
+  width: 35%;
+  height: 120px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 6px;
+}
+
+@media(max-width : 480px){
+  .aboutus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+  }
+
+  .heading {
+    font-size: 18px;
+    margin-left: 100px;
+  }
+
+  .heading-2 {
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: -20px;
+  }
+  .heading-2 span{
+    font-size: 16px;
+  }
+  .heading-2 h2{
+   font-size: 16px;
+  }
+
+  .paragraph {
+    width: 300px;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-top: -30px;
+  }
+
+  .button-div {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .images-container{
+    width: 380px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-top: -350px;
+    
+  }
+  .images-container .img1{
+    width: 140px;
+    height: 80px;
+    margin-left: 30px;
+
+  }
+  .images-container .img2{
+    width: 100px;
+    height: 50px;
+  }
+
+  .images-container .img3{
+    width: 100px;
+    height: 50px;
+
+  }
+  .check-container {
+    width:320px;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-top: 200px;
+  }
+  .button-div{
+    margin-left: 100px;
+  }
+
+
+
+}
+
+
+
+@media (max-width: 768px) {
+  .aboutus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-top: 80px;
+    
+  }
+
+  .sub-container{
+    width: 100%; 
+    text-align: left;
+    justify-content: left;
+  }
+
+  .heading {
+      font-size: 28px;
+      
+    
+  }
+
+  .heading-2 {
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: -2px;
+    margin-top: 20px;
+  }
+
+  .heading-2 span {
+    font-size: 24px;
+  }
+
+  .heading-2 h2 {
+    font-size: 24px;
+    margin-top: -10px;
+    margin-left: -2px;
+  }
+
+  .paragraph {
+    width: 600px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: -30px;
+    
+  }
+
+  .check-container {
+    width:620px;
+    font-size: 18px;
+    margin-top: 60px;
+    line-height: 26px; 
+  }
+
+  .button-div {
+    font-size: 14px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 450px;
+    margin-left: 220px;
+    width: 180px;
+    height: 50px;
+    font-weight:700px;
+
+  }
+
+  .images-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px;
+    margin-top: -100px; 
+  }
+
+  .images-container .img1 {
+    width: 280px; 
+    height: 180px;
+    margin-top: -40px;
+    margin-left: -50px;
+    border: 2px solid white;
+    
+  }
+
+  .images-container .img2{
+    width: 280px;
+    height: 180px;
+    margin-top: -40px;
+    border: 2px solid white;
+
+  } 
+  
+  
+  .images-container .img3 {
+    width: 280px;
+    height: 180px;
+    display: block;
+    margin-top: -200px;
+    margin-left: -40px;
+    border: 2px solid white;
+  }
+}
